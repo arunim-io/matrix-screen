@@ -4,3 +4,10 @@ backend = "core:zig"
 
 [tools.zig.checksums]
 "zig-x86_64-linux-0.14.1.tar.xz" = "sha256:24aeeec8af16c381934a6cd7d95c807a8cb2cf7df9fa40d359aa884195c4716c"
+
+[tools.zls]
+version = "0.14.0"
+backend = "aqua:zigtools/zls"
+
+[tools.zls.checksums]
+"zls-linux-x86_64-0.14.0.tar.xz" = "sha256:661f8d402ba3dc9b04b6e9bc3026495be7b838d2f18d148db2bd98bd699c1360"
